@@ -1,0 +1,107 @@
+body {
+  background-color: yellow;
+  font-family: Comic Sans MS;
+  color: pink;
+  font-size: 17px;
+  line-height: 3;
+  display: block;
+  cursor: url("images/troll.png"), auto;
+
+}
+
+h1 {
+  color: pink;
+  font-family: Comic Sans MS;
+  margin: 5px
+
+}
+
+h3 {
+  color: aqua;
+  font-family: courier;
+  font-size: 20px;
+  line-height: 1;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+.main-class {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  color: rgb(80, 165, 87);
+  background-color: purple;
+  width: 500px;
+  text-align: center;
+  margin: 24px auto;
+  box-shadow: 5px 10px #888888;
+  cursor: url("images/troll.png"), auto;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  margin: 5px
+}
+
+#donate_button {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  border-radius: 3px;
+  text-decoration: 0;
+  margin: 0px;
+  padding: 0px;
+  -webkit-border-radius: 10px;
+  -webkit-animation: glowing 200ms infinite;
+  -moz-animation: glowing 200ms infinite;
+  -o-animation: glowing 200ms infinite;
+  animation: glowing 200ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #1e9932; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #89ca11; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #c9dd12; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #bbb348; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #2624a0; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #6d8842; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+#follow_me {
+  margin: 5px;
+  padding: 10px;
+}
+
+.buttons {
+  list-style-type: none;
+}
+
+.list-items {
+  text-align: center;
+}
+
+.cat {
+  width: 500px;
+}
